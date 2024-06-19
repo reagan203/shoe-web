@@ -68,3 +68,100 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Shoe-Web
+
+Shoe-Web is a React-based web application for browsing, selecting, and purchasing shoes. The application uses Chakra UI for styling and React Router for navigation.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+These instructions will help you set up and run the Shoe-Web project on your local machine for development and testing purposes.
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (Node Package Manager)
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/your-username/shoe-web.git
+   cd shoe-web
+Install the dependencies:
+
+sh
+Copy code
+npm install
+Running the Application
+To run the application in development mode, use the following command:
+
+sh
+Copy code
+npm start
+This will start the development server and open the application in your default web browser. The app will reload automatically when you make changes to the code.
+
+Project Structure
+java
+Copy code
+shoe-web/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Navigation.js
+│   │   ├── Homepage.js
+│   │   ├── ShoeDetail.js
+│   │   ├── Cart.js
+│   │   └── Checkout.js
+│   ├── index.css
+│   ├── index.js
+│   ├── App.js
+│   └── App.css
+├── package.json
+└── README.md
+Dependencies
+The project uses the following major dependencies:
+
+React
+React DOM
+Chakra UI
+React Router DOM
+React Responsive Carousel
+Installing Dependencies
+If you need to install the dependencies manually, use the following commands:
+
+sh
+Copy code
+npm install react-dom@latest @chakra-ui/react @emotion/react @emotion/styled framer-motion react-router-dom@latest react-responsive-carousel
+Contributing
+We welcome contributions to improve the project. Here are some ways you can help:
+
+Report bugs and issues
+Suggest new features
+Submit pull requests to improve the codebase
+To contribute, please fork the repository and create a new branch for your changes. Once your changes are ready, submit a pull request for review.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+css
+Copy code
+
+This `README.md` file provides a clear overview of your project, including how to ge
