@@ -23,7 +23,7 @@ function Header() {
       </Flex>
       <Carousel showThumbs={false} autoPlay infiniteLoop >
         <Box>
-        <img src="https://eikenshop.com/cdn/shop/articles/lennart-uecker-49bZDF_EgJU-unsplash_570594d4-fac9-4e21-a1d0-50165afa438c.jpg?v=1678092844" alt="Image 2" height={20} />
+        <img src="https://eikenshop.com/cdn/shop/articles/lennart-uecker-49bZDF_EgJU-unsplash_570594d4-fac9-4e21-a1d0-50165afa438c.jpg?v=1678092844" alt="" height={20} />
         </Box>
       </Carousel>
     </Box>
